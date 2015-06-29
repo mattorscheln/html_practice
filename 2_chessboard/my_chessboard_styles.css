@@ -18,3 +18,36 @@ Note that I've included the background image for the page in this folder, "grey.
 Write your CSS rules below.
 
 */
+
+body{
+	background-image: url(grey.png);
+	}
+
+.board {
+	border: thick solid;
+ 	border-width: 5px;
+	border-color: teal;
+	margin: 36px auto;
+	}
+
+.square{
+	color: coral;
+	text-shadow: 1px 1px 2px grey;
+	font-size: 36pt;
+	height: 72px;
+	width: 72px;
+	text-align: center;
+}
+
+.dark_square{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#03a592+7,03818d+64,03818d+64 */
+background: #03a592; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #03a592 7%, #03818d 64%, #03818d 64%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(7%,#03a592), color-stop(64%,#03818d), color-stop(64%,#03818d)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg,  #03a592 7%,#03818d 64%,#03818d 64%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg,  #03a592 7%,#03818d 64%,#03818d 64%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg,  #03a592 7%,#03818d 64%,#03818d 64%); /* IE10+ */
+background: linear-gradient(135deg,  #03a592 7%,#03818d 64%,#03818d 64%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#03a592', endColorstr='#03818d',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
